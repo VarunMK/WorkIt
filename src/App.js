@@ -42,7 +42,9 @@ class App extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     this.beginingTime.pomorado.minu = this.state.value * 2;
+    // eslint-disable-next-line
     this.state.time.minu = this.beginingTime.pomorado.minu;
+    // eslint-disable-next-line
     this.state.time.secs = this.beginingTime.pomorado.secs;
     this.resetButton();
   };
@@ -70,10 +72,10 @@ class App extends React.Component {
     const minu = time.minu;
     const secs = time.secs;
     if (this.state.isOn) {
-      if (minu == 0 && secs == 0) {
+      if (minu === 0 && secs === 0) {
         alert(`${this.state.type} Done!`);
         this.resetButton(this.state.type);
-      } else if (secs == 0) {
+      } else if (secs === 0) {
         this.setState({
           time: {
             minu: minu - 1,
