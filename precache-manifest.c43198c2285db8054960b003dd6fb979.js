@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df72271a8c08ba064765dfa2c7e663ba",
+    "revision": "47e267607e6fb4279c8973d47d743d09",
     "url": "/WorkIt/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WorkIt/static/css/2.9edc93b8.chunk.css"
   },
   {
-    "revision": "6bea3a8b432e6662ef3b",
-    "url": "/WorkIt/static/css/main.c0d8041c.chunk.css"
+    "revision": "4b58cde6b797b255f0bb",
+    "url": "/WorkIt/static/css/main.0ea75b9c.chunk.css"
   },
   {
     "revision": "b3e7a01b5250c258fccf",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WorkIt/static/js/2.0604170d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6bea3a8b432e6662ef3b",
-    "url": "/WorkIt/static/js/main.1082840d.chunk.js"
+    "revision": "4b58cde6b797b255f0bb",
+    "url": "/WorkIt/static/js/main.3441f39a.chunk.js"
   },
   {
     "revision": "5817f583ad3b44702b15",
