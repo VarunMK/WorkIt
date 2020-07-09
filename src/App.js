@@ -42,9 +42,7 @@ class App extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault();
     this.beginingTime.pomorado.minu = this.state.value * 2;
-    // eslint-disable-next-line
     this.state.time.minu = this.beginingTime.pomorado.minu;
-    // eslint-disable-next-line
     this.state.time.secs = this.beginingTime.pomorado.secs;
     this.resetButton();
   };
