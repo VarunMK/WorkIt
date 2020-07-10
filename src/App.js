@@ -155,64 +155,33 @@ class App extends React.Component {
         <section id="timer">
           <div className="container">
             <h1 className="sec-head">Timer</h1>
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} className="containme">
               <div className="form-group">
-                <label for="InputRounds">Number Of Rounds</label>
+                <label for="InputRounds" style={{ color: "black" }}>
+                  Number Of Rounds
+                </label>
                 <br />
                 <br />
                 <input
                   type="number"
                   min="1"
                   className="form-check-input"
-                  style={{ height: "35px" }}
+                  style={{ height: "35px", color: "black" }}
                   id="InputRounds"
                   placeholder="Enter Rounds"
                   onChange={this.updateInput}
                 />
               </div>
               <br />
-              {/* <div className="col-sm-10">
-                <div className="form-check">
-                  <input
-                    type="radio"
-                    className="form-check"
-                    id="Easy"
-                    name="choice"
-                  />
-                  <label className="form-check-input" for="Easy">
-                    Easy
-                  </label>
-                </div>
-                <div className="form-check">
-                  <input
-                    type="radio"
-                    className="form-check"
-                    id="Med"
-                    name="choice"
-                  />
-                  <label className="form-check-input" for="Med">
-                    Medium
-                  </label>
-                </div>
-                <div className="form-check">
-                  <input
-                    type="radio"
-                    className="form-check"
-                    id="Hard"
-                    name="choice"
-                  />
-                  <label className="form-check-input" for="Hard">
-                    Hard
-                  </label>
-                </div>
-              </div> */}
               <br />
-              <button type="submit">Submit</button>
+              <button type="submit" style={{ color: "white" }}>
+                Submit
+              </button>
             </form>
           </div>
           <br />
         </section>
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: "center" }} className="to">
           <Divider />
           <h1 style={{ fontSize: "45px" }}>{this.getHeading()}</h1>
           <h1 style={{ fontSize: "90px" }}>
@@ -250,9 +219,12 @@ class App extends React.Component {
           </div>
         </div>
         <br />
-        <br />
         <footer>
-          <div className="footer-bottom text-center">
+          <div
+            className="footer-bottom text-center"
+            id="foot"
+            style={{ color: "white" }}
+          >
             Copyright © 2020 WorkIt By Zotako Corp
           </div>
         </footer>
