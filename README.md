@@ -18,3 +18,5 @@
 - Click on the <strong>start</strong> button to start the workout.
 - Click on the <strong>reset</strong> button to start over.
 - After the completion of your workout you will be notified.
+
+(Website layout might mess up on mobile phones even with desktop mode).
