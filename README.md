@@ -1,5 +1,5 @@
 # WorkIt
-<hr/>
+
 ## [WorkIt](https://zotako.github.io/WorkIt/) is a Workout timer made using React and Redux.
 
 ## Default Parameters:
